@@ -1,6 +1,6 @@
 
 
-import Hernalytics from '../asset/footer/Hernalytics.svg'
+import Hernalytic from '../asset/footer/Hernalytic.svg'
 import instagramm from '../asset/footer/instagramm.svg'
 import twitter from '../asset/footer/twitter.svg'
 import watsapp from '../asset/footer/watsapp.svg'
@@ -14,14 +14,13 @@ const Footer = () => {
             {/* address */}
             <div className="addr">
                 <div className="logo">
-                    <img src={Hernalytics} alt="hernalytics" />
+                    <img src={Hernalytic} alt="hernalytics" />
                 </div>
 
                 <div className="socials">
                     <a href="/#"><img src={instagramm} alt="instagram" className="insta" /></a>
                     <a href="/#"><img src={twitter} alt="twitter" className="twitter" /></a>
                     <a href="/#"><img src={watsapp} alt="watsapp" className="whatsapp" /></a>
-                    
                 </div>
 
                 <div className="contact">
@@ -38,23 +37,23 @@ const Footer = () => {
 
                 <div className="boutsupport">
                     <div className="about">
-                        <p className="bout">About</p>
-                        <p className="story">Our Story</p>
-                        <p className="bouther">About Hernalytics</p>
-                        <p className="video">Videos</p>
+                        <p className="bout"><a href='/#'>About</a> </p>
+                        <p className="story"><a href='/#'>Our Story</a> </p>
+                        <p className="bouther"><a href='/#'>About Hernalytics</a> </p>
+                        <p className="video"><a href='/#'>Videos</a> </p>
                     </div>
 
                     <div className="support">
-                        <p className="supp">Support</p>
-                        <p className="faq">FAQs</p>
-                        <p className="policy">Privacy Policy</p>
-                        <p className="terms">Terms & Conditions</p>
+                        <p className="supp"><a href='/#'> Support</a></p>
+                        <p className="faq"><a href='/#'> FAQs</a></p>
+                        <p className="policy"><a href='/#'>Privacy Policy</a> </p>
+                        <p className="terms"><a href='/#'>Terms & Conditions</a> </p>
                     </div>
                 </div>
 
                 <div className="condition">
-                    <p>Privacy policy</p>
-                    <p>Terms and conditions</p>
+                    <p><a href='/#'> Privacy policy</a></p>
+                    <p><a href='/#'>Terms and conditions</a></p>
                 </div>
                 
             </div>

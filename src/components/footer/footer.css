@@ -1,26 +1,60 @@
 
+/* font-family: 'Jost', sans-serif;
+font-family: 'Public Sans', sans-serif; */
 
+.footer {
+    background-color: #DBE4E6;
+    padding-block: 48px;
+    padding-inline: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.addr {
 
+}
+.logo {
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin-block: 16px;
+    width: 120px;
+    height: 24px;
+}
+.socials a {
+    width: 24px;
+    height: 24px;
+}
+.socials a img {
+    width: 100%;
+    height: 100%;
+}
 
 
 .contact {}
+
 .locate {
-    font-family: 'Public Sans';
+    font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
 }
 .mail {
-    font-family: 'Public Sans';
+    font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    text-align: right;
 }
 .phone {
-    font-family: 'Public Sans';
+    font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -39,13 +73,20 @@
     color: #000000;
 }
 
-
-
-
 .links {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
+
+.boutsupport {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.boutsupport a {
+    color: #000;
 }
 
 .about,
@@ -83,16 +124,17 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 24px;
 }
 
 .condition p {
     font-family: 'Jost';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 17px;
-    letter-spacing: -0.02em;
-    
-    
+    letter-spacing: -0.02em; 
+}
+
+.condition a {
+    color: #000;
 }
