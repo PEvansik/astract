@@ -1,0 +1,98 @@
+
+
+
+
+
+.contact {}
+.locate {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.mail {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+}
+.phone {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.copy {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about,
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bout,
+.supp {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;    
+}
+
+
+.story,
+.bouther,
+.video,
+.faq,
+.policy,
+.terms {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+
+.condition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.condition p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    
+    
+}

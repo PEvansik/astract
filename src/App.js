@@ -9,6 +9,8 @@ import Fifth from './components/fifth/Fifth';
 import Sixth from './components/sixth/Sixth';
 import Seventh from './components/seventh/Seventh';
 import Eight from './components/eight/Eight';
+import Nineth from './components/nine/Nineth';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
       <Sixth />
       <Seventh />
       <Eight />
+      <Nineth />
+      <Footer />
+
     </div>
   );
 }
