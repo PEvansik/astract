@@ -1,0 +1,114 @@
+
+.Fifth {
+    background-color: #001f24;
+    padding-left: 24px;
+    overflow: hidden;
+    /* background-image: url('./asset/fifth/bottomleft.svg');
+    background-repeat: no-repeat;
+    background-position: 80% -10%; */
+}
+
+.Fifthcard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 212.2px;
+    height: 308.95px;
+
+    background: #FFFFFF;
+}
+.cands {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.42px;
+    margin-block: 24px;
+}
+.cands h5 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.cands p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.cancard {
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 11.83px;
+    overflow-x: scroll;
+}
+.canholder {
+    width: 210.88px;
+    height: 181.89px;
+}
+.canimg {
+    width: 100%;
+    height: 100%;
+
+}
+.canimg img {
+    width: 100%;
+    height: 100%;
+}
+.namepos {
+    margin-block: 15px;
+    padding-left: 10px;
+}
+.namepos h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0;
+}
+.namepos p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.lemo {
+    font-family: 'Jost';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+}
+.lemo span {
+    color: black;
+}
+.lemo img {
+
+}
+.all-candid {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+    margin-right: 24px;
+    color: #E5B805;
+}
+.all-candid a {
+    color: #E5B805;
+}
