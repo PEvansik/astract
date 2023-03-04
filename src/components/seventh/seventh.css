@@ -1,0 +1,64 @@
+
+
+.Seventh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sevencont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 53px;
+    margin-bottom: 32px;
+}
+.sevencont h5 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+.sevencont p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+}
+.media {
+    width: 327px;
+    height: 196.65px;
+    background: #001F24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+.med {
+    width: 80%;
+    height: 84%;
+    border: 1px solid red;
+}
+.mediaback {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.mediaback img {
+    width: 100%;
+    height: 120%;
+}
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+}
