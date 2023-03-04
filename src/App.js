@@ -8,6 +8,7 @@ import Fourth from './components/fourth/Fourth';
 import Fifth from './components/fifth/Fifth';
 import Sixth from './components/sixth/Sixth';
 import Seventh from './components/seventh/Seventh';
+import Eight from './components/eight/Eight';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Fifth />
       <Sixth />
       <Seventh />
+      <Eight />
     </div>
   );
 }
