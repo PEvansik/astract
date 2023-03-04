@@ -109,3 +109,7 @@
 .all-candid a {
     color: #E5B805;
 }
+
+@media only screen and (width > 1024px) {
+
+}

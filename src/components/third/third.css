@@ -2,8 +2,9 @@
 .Third{
     overflow: hidden;
     background: #E9F2F4;
-    height: 418px;
     padding-left: 24px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .Third h5 {
     font-family: 'Public Sans', sans-serif;

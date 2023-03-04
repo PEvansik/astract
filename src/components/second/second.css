@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .process {
@@ -64,4 +65,26 @@
     font-size: 16px;
     line-height: 23px;
     text-align: center;
+}
+
+@media only screen and (width > 760px) {
+    .process-holder {
+        width: 700px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .process {
+        width: 40%;
+    }
+}
+
+@media only screen and (width > 1024px) {
+    .process-holder {
+        width: 1200px;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+    .process {
+        width: 20%;
+    }
 }

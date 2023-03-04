@@ -154,3 +154,7 @@ font-family: 'Public Sans', sans-serif; */
 .all-trend a {
     color: #E5B805;
 }
+
+@media only screen and (width > 760px) {
+
+}

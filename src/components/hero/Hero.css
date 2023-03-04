@@ -123,6 +123,9 @@ font-family: 'Public Sans', sans-serif; */
 
 
 @media only screen and (width > 700px){
+    .hero {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65)), url('../asset/hero/hero.jpeg');
+    }
     
     .mobile-hero {
         align-items: flex-start;
