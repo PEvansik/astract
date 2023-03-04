@@ -1,9 +1,15 @@
 .hero {
     height: 100vh;
     background-position: left;
-    background-repeat: no-repeat;
     background-size: cover;
-    background: url('../asset/hero/hero.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../asset/hero/hero.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-inline: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 a {
     text-decoration: none;
@@ -18,19 +24,22 @@ font-family: 'Public Sans', sans-serif; */
     color: #FCFCFF;
     display: flex;
     flex-direction: column;
-    border: 1px solid yellow;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-
 }
+
 .mobile-hero h1 {
     font-family: 'Public Sans', sans-serif;
     padding: 0;
+
+    /* font-size: 1.5rem; */
+    font-size: clamp(1.5rem, 1.2182692307692309rem + 1.2019230769230764vw, 2.3rem);
 }
 .mobile-hero p {
     font-family: 'Jost', sans-serif;
+    text-align: left;
 }
 .web-hero {
 
@@ -77,37 +86,72 @@ font-family: 'Public Sans', sans-serif; */
 .signlearn {
     width: 324px;
 }
+.signlearn a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .sign,
 .learn {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 12px;
+    height: 42px;
 }
 .sign {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 12px;
-    width: 324px;
-    height: 42px;
     background: #E5B805;
     border-radius: 2px;
+    padding-inline: 0;
 }
 .sign a {
     color: #000;
 }
 .learn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 12px;
     gap: 10px;
     color: #FFFFFF;
-    width: 324px;
-    height: 42px;
     border: 1px solid #FFFFFF;
     border-radius: 2px;
 }
 .learn a {
     color: #fff;
 }
+
+
+@media only screen and (width > 700px){
+    
+    .mobile-hero {
+        align-items: flex-start;
+        padding-left: 40px;
+    }
+
+    .mobile-hero h1 {
+        text-align: left;
+        width: 50%;
+    }
+
+    .mobile-hero p {
+        text-align: left;
+        width: 50%;
+    }
+
+    .signlearn {
+        width: 324px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .sign,
+    .learn {
+        width: 30%;
+    }
+ 
+}
+
+/* align-items: flex-start; */

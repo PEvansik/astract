@@ -76,14 +76,15 @@ font-family: 'Public Sans', sans-serif; */
 .links {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .boutsupport {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 .boutsupport a {
     color: #000;

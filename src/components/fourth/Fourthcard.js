@@ -21,12 +21,12 @@ const FourthCard = ({newspic, alt, date, channel, bulletin}) => {
                 <p className="bulletin">{bulletin}</p>
                 <div className="datelink">
                     <p className="date">{date}</p>
-                    <p className="visit">
+                    <div className="visit">
                         <p>Visit</p>
                         <div className="visitlink">
                             <img src={launch} alt="launch-icon" />
                         </div>
-                    </p>
+                    </div>
                 </div>
             </div>
 

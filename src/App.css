@@ -4,7 +4,7 @@
 .Header {
   height: 100vh;
   background-position: center;
-  background: url('./components/asset/hero/hero.jpg');
+  /* background: url('./components/asset/hero/hero.jpeg'); */
 }
 
 /* font-family: 'Jost', sans-serif; */
