@@ -1,4 +1,6 @@
 
+
+import { useState } from 'react'
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
@@ -14,9 +16,20 @@ import Footer from './components/footer/Footer';
 
 
 function App() {
+
+  const [menu, setMenu] = useState(true)
+
+  const handleMenu = () => {
+    console.log('clicked')
+      setMenu(prevMenu => !prevMenu)
+  }
+
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar
+        menuController={menu}
+        handleClick={handleMenu} />
       <Hero />
       <Second />
       <Third />

@@ -6,32 +6,28 @@ import openmenu from '../asset/navbar/openmenu.svg'
 import Mobilenav from './Mobilenav'
 import Auth from './Auth'
 import './Navbar.css'
-import { useState } from 'react'
-import Webnav from './Webnav'
 
-const Navbar = () => {
+
+
+const Navbar = ({menuController, handleClick}) => {
     
     const {width} = useWindowResize();
-    const [menu, setMenu] = useState(true)
 
-    const handleClick = () => {
-        setMenu(prevMenu => !prevMenu)
-    }
+    const mobileIcon = (width <= 771 ) ? ' mobile' : '';
 
-    const mobileNav = menu ? '' : ' active';
-    const mobileIcon = (width <= 1024 ) ? ' mobile' : '';
+    
 
     const MOBILE = (
-        !menu && <div className='mobile-nav'>
-            <Mobilenav />
-            <Auth />
-        </div> )
-    const WEB = (
-        <div className='nav'>
-                <Webnav />
+        (width <= 771 ) 
+        ?   (!menuController && <div className={`mobile-nav ${!menuController ? 'active' : ''}`} >
+                <Mobilenav />
                 <Auth dom='login' />
-            </div> 
-    )
+            </div> )
+        : ( <div className={`mobile-nav ${!menuController ? 'active' : ''}`} >
+                <Mobilenav />
+                <Auth dom='login'/>
+        </div>))
+
 
 
 
@@ -43,15 +39,15 @@ const Navbar = () => {
                     <img src={Hernalytics} alt="Hernalytics-logo" />
                 </div>
 
-                {(width <= 1024 )? <div className="hamburger" onClick={handleClick}>
-                    {menu ? <img src={openmenu} alt="openmenu" /> :  <img src={closemenu} alt="closemenu" />}
+                {(width <= 771 )? <div className="hamburger" onClick={handleClick}>
+                    {menuController ? <img src={openmenu} alt="openmenu" /> :  <img src={closemenu} alt="closemenu" />}
                 </div> : ''}
 
             </div>
 
-            <div className="menu-holder"></div>
+            {/* {!menu && <div className="overlay"></div>} */}
 
-           {width <= 1024 ? MOBILE : WEB}
+           { MOBILE }
         </div>
     )
 }

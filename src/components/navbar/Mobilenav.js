@@ -3,24 +3,25 @@
 import './Navbar.css'
 
 
+// add a click event to the menu items so it closes after it has been clicked
 
 const Mobilenav = ({show}) => {
     return (
-        <div className='mobile-list' >
+
             <div className='mobile-nav-items'>
-                <p>Blog</p>
-                <p>Donations</p>
-                <p>About us</p>
+                <p className='blog'><a href="">Blog</a></p>
+                <p className='donations'><a href="">Donations</a></p>
+                <p className='aboutus'><a href="">About us</a></p>
                 <p className='custom-select'>
                     <select>
-                        <option value="0">In Africa</option>
-                        <option value="1">Nigeria</option>
-                        <option value="2">Cameroun</option>
-                        <option value="3">Gambia</option>
+                        <option value="0"><a href="">In Africa</a></option>
+                        <option value="1"><a href="">Nigeria</a></option>
+                        <option value="2"><a href="">Cameroun</a></option>
+                        <option value="3"><a href="">Gambia</a></option>
                     </select>
                 </p>
             </div>
-    </div>
+
     )
 
 }
