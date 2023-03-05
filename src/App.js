@@ -24,22 +24,36 @@ function App() {
       setMenu(prevMenu => !prevMenu)
   }
 
+  const handleOverlay = () => {
+    console.log('overlay clicked')
+    setMenu(!menu)
+  }
+
 
   return (
     <div className="App">
       <Navbar
         menuController={menu}
-        handleClick={handleMenu} />
-      <Hero />
-      <Second />
-      <Third />
-      <Fourth />
-      <Fifth />
-      <Sixth />
-      <Seventh />
-      <Eight />
-      <Nineth />
-      <Footer />
+        handleClick={handleMenu}
+        // handleOverlay={handleOverlay}
+       />
+
+      <div className="apbody">
+
+      {!menu && <div className="overlay" onClick={handleOverlay}></div>}
+
+        <Hero />
+        <Second />
+        <Third />
+        <Fourth />
+        <Fifth />
+        <Sixth />
+        <Seventh />
+        <Eight />
+        <Nineth />
+        <Footer />
+        </div>
+
 
     </div>
   );

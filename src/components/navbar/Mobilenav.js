@@ -9,10 +9,10 @@ const Mobilenav = ({show}) => {
     return (
 
             <div className='mobile-nav-items'>
-                <p className='blog'><a href="">Blog</a></p>
-                <p className='donations'><a href="">Donations</a></p>
-                <p className='aboutus'><a href="">About us</a></p>
-                <p className='custom-select'>
+                <p className='blog' ><a href="">Blog</a></p>
+                <p className='donations' ><a href="">Donations</a></p>
+                <p className='aboutus' ><a href="">About us</a></p>
+                <p className='custom-select' >
                     <select name='dropdown' id='dropdown'>
                         <option selected disabled><a href="">In Africa</a></option>
                         <option value="Nigeria"><a href="">Nigeria</a></option>

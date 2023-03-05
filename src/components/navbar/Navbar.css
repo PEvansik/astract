@@ -62,13 +62,7 @@
 .mobile-nav.active {
     right: 0;
 }
-.overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-    /* background-color: red; */
-}
+
 .mobile-nav-items {
 
     display: block;
@@ -113,7 +107,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    padding-inline: 4px;
+    padding-right: 4px;
     appearance: none;
     outline: 0;
     box-shadow: none;

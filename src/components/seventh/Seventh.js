@@ -24,12 +24,12 @@ const Seventh = () => {
                     <p>How to Join the Biggest Civic Tech Platform In Africa</p>
                 </div>
                 <div className="media">
-                    <div className="med"></div>
+                    
                     <div className="mediaback">
                         <div className="mediapic">
                             <img src={vid} alt="vid" />
                         </div>
-
+                        <div className="med"></div>
                         <div className="play">
                             <img src={Play} alt="play-button" />
                         </div>    

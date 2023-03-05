@@ -9,18 +9,20 @@ import './Navbar.css'
 
 
 
-const Navbar = ({menuController, handleClick}) => {
+const Navbar = ({menuController, handleClick, handleOverlay}) => {
     
     const {width} = useWindowResize();
 
     const mobileIcon = (width <= 771 ) ? ' mobile' : '';
+
 
     
 
     const MOBILE = (
         (width <= 771 ) 
         ?   (!menuController && <div className={`mobile-nav ${!menuController ? 'active' : ''}`} >
-                <Mobilenav />
+                <Mobilenav 
+                show={handleOverlay}/>
                 <Auth dom='login' />
             </div> )
         : ( <div className={`mobile-nav ${!menuController ? 'active' : ''}`} >
@@ -45,7 +47,6 @@ const Navbar = ({menuController, handleClick}) => {
 
             </div>
 
-            {/* {!menu && <div className="overlay"></div>} */}
 
            { MOBILE }
         </div>
