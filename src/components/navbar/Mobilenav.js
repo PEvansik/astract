@@ -13,11 +13,11 @@ const Mobilenav = ({show}) => {
                 <p className='donations'><a href="">Donations</a></p>
                 <p className='aboutus'><a href="">About us</a></p>
                 <p className='custom-select'>
-                    <select>
-                        <option value="0"><a href="">In Africa</a></option>
-                        <option value="1"><a href="">Nigeria</a></option>
-                        <option value="2"><a href="">Cameroun</a></option>
-                        <option value="3"><a href="">Gambia</a></option>
+                    <select name='dropdown' id='dropdown'>
+                        <option selected disabled><a href="">In Africa</a></option>
+                        <option value="Nigeria"><a href="">Nigeria</a></option>
+                        <option value="Cameroun"><a href="">Cameroun</a></option>
+                        <option value="Gambia"><a href="">Gambia</a></option>
                     </select>
                 </p>
             </div>
