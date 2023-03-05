@@ -28,13 +28,15 @@ const Fourth = () => {
             <div className="cardholder">
 
                 {/* you can use width to controll what happens here */}
+                <div className="shown">
+                    <FourthCard 
+                        newspic={news1}
+                        alt='news1'
+                        channel='News Channel'
+                        bulletin='Consectetur arcu tellus massa mi volutpat pharetra arcu.'
+                        date='Dec 12, 2022'/>
+                </div>
 
-                <FourthCard 
-                    newspic={news1}
-                    alt='news1'
-                    channel='News Channel'
-                    bulletin='Consectetur arcu tellus massa mi volutpat pharetra arcu.'
-                    date='Dec 12, 2022'/>
 
                {width > 760 ?(<div className='see'>
                         <FourthCard 

@@ -5,7 +5,7 @@ import './Navbar.css'
 
 // add a click event to the menu items so it closes after it has been clicked
 
-const Mobilenav = ({show}) => {
+const Mobilenav = () => {
     return (
 
             <div className='mobile-nav-items'>
