@@ -20,7 +20,7 @@ const Sixthcard = () => {
                         <p>Eget ac laoreet ullamcorper enim. Eget amet molestie id nisi lectus mattis facilisis.</p>
                     </div>
 
-                    <div className="socials">
+                    <div className="socialssix">
                         <div className="social-icons">
                             <div className="eye">
                                 <img src={eye} alt="visibility" />
@@ -36,9 +36,10 @@ const Sixthcard = () => {
                             </div>
                         </div>
 
-                        <div className="comment">
-                            <a href="/#">Add your comment</a>
+                        <div className="commentshol">
+                            <a href="/#" className='comlink'>Add your comment</a>
                         </div>
+
                     </div>
                 </div>
             </div>

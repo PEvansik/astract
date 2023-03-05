@@ -18,23 +18,22 @@ const Seventh = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: `2% 64%, 1.8% 86.5%, 98% 45.8%`,
                }}>
-            <div 
-                className="sevencont">
+            <div className="sevencont">
                 <div className='seven-com'>
                     <h5>Communities</h5>
                     <p>How to Join the Biggest Civic Tech Platform In Africa</p>
                 </div>
                 <div className="media">
                     <div className="med"></div>
-                        <div className="mediaback">
-                            <div className="mediapic">
-                                <img src={vid} alt="vid" />
-                            </div>
-
+                    <div className="mediaback">
+                        <div className="mediapic">
+                            <img src={vid} alt="vid" />
+                        </div>
 
                         <div className="play">
                             <img src={Play} alt="play-button" />
-                        </div>
+                        </div>    
+
                     </div>
                 </div>
             </div>

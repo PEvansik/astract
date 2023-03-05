@@ -14,8 +14,9 @@
 .sixholder {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 34px;
 }
 .sixthcard {
     width: 327px;
@@ -56,7 +57,7 @@
     background: #FFFFFF;
     box-shadow: 0.844906px 0.844906px 8.44906px rgba(0, 0, 0, 0.12);
     border-radius: 3px;
-    padding: 10px 12px;
+    padding: 10px 10px;
     gap: 10px;
 }
 /* font-family: 'Jost', sans-serif;
@@ -85,7 +86,7 @@ font-family: 'Public Sans', sans-serif; */
     line-height: 150%;
     margin: 0;
 }
-.socials {
+.socialssix {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -109,9 +110,10 @@ font-family: 'Public Sans', sans-serif; */
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    gap: 2px;
-    width: 41px;
+    gap: 4px;
+    /* width: 41px; */
     height: 17px;
+    border: 1px solid red;
 }
 
 .eye span,
@@ -123,19 +125,20 @@ font-family: 'Public Sans', sans-serif; */
     line-height: 17px;
 }
 
-.comment {
+.commentshol {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    justify-content: flex-end;
     height: 17px;
+    border: 1px solid red;
 }
-.comment {
+
+.commentshol .comlink {
     font-weight: 400;
     font-size: 13px;
+    font-family: 'Jost', sans-serif;
     line-height: 17px;
-}
-.comment a {
     color: #000;
     text-decoration-line: underline;
     font-family: 'Public Sans', sans-serif;
@@ -156,5 +159,9 @@ font-family: 'Public Sans', sans-serif; */
 }
 
 @media only screen and (width > 760px) {
+    .sixholder {
+        flex-direction: row;
+        gap: 34px;
+    }
 
 }

@@ -10,12 +10,12 @@ font-family: 'Public Sans', sans-serif; */
     flex-direction: column;
     justify-content: flex-start;
 }
-.addr {
+/* .addr {
 
 }
 .logo {
 
-}
+} */
 
 .socials {
     display: flex;
@@ -27,11 +27,11 @@ font-family: 'Public Sans', sans-serif; */
     width: 120px;
     height: 24px;
 }
-.socials a {
+.socials .soc {
     width: 24px;
     height: 24px;
 }
-.socials a img {
+.socisocls .soc img {
     width: 100%;
     height: 100%;
 }
@@ -138,4 +138,11 @@ font-family: 'Public Sans', sans-serif; */
 
 .condition a {
     color: #000;
+}
+
+@media only screen and (width > 764px) {
+    .footer {
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }

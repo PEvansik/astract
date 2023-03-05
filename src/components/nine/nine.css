@@ -93,3 +93,10 @@ height: 75px;
     color: #000000;
     
 }
+
+@media only screen and (width > 694px) {
+    .Nineth{
+        background-position: 40% 50%;
+    }
+}
+

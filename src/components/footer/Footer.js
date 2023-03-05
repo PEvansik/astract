@@ -18,9 +18,9 @@ const Footer = () => {
                 </div>
 
                 <div className="socials">
-                    <a href="/#"><img src={instagramm} alt="instagram" className="insta" /></a>
-                    <a href="/#"><img src={twitter} alt="twitter" className="twitter" /></a>
-                    <a href="/#"><img src={watsapp} alt="watsapp" className="whatsapp" /></a>
+                    <a href="/#" className='soc'><img src={instagramm} alt="instagram" className="insta" /></a>
+                    <a href="/#" className='soc'><img src={twitter} alt="twitter" className="twitter" /></a>
+                    <a href="/#" className='soc'><img src={watsapp} alt="watsapp" className="whatsapp" /></a>
                 </div>
 
                 <div className="contact">
